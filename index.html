@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ice Cream Selector</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="heading">
+    <h1>IceCreamy🍦</h1>
+    <p>Choose your flavour</p>
+</header>
+
+<div class="hero">
+    <div class="image-layer">
+    <div class="image caramel"><img src="caramel.png"></div>
+    <div class="image blueberry"><img src="blueberry.png"></div>
+    <div class="image strawberry"><img src="strawberry.png"></div>
+    <div class="image chocolate"><img src="chocolate.png"></div>
+    <div class="image pineapple"><img src="pineapple.png"></div>
+    </div>
+    <div class="ui">
+    <div class="flavours">
+      <button style="--i:0">Caramel</button>
+      <span>|</span>
+      <button style="--i:1">Blueberry</button>
+      <span>|</span>
+      <button style="--i:2">Strawberry</button>
+      <span>|</span>
+      <button style="--i:3">Chocolate</button>
+      <span>|</span>
+      <button style="--i:4">Pineapple</button>
+    </div>
+      <button id="order">Order Now</button>
+      </div>
+</div>
+<div class="order-modal hidden">
+  <div class="order-card">
+    <h2>Your Order 🍦</h2>
+    <p class="order-flavour"></p>
+    <p class="price">Price: <strong>$4.99</strong></p>
+
+    <button class="confirm">Confirm Order</button>
+    <button class="close">Cancel</button>
+  </div>
+</div>
+<div id="popup">
+    <h3>🎉 Order placed successfully!</h3>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
