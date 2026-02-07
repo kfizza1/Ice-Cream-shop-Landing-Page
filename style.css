@@ -237,6 +237,11 @@ header p {
     .flavours button{
         font-size: 12px;
     }
+    #popup{
+        font-size: 12px;
+        width: 90%;
+        height: 35px;
+    }
 }
 @media screen and (max-width:400px) {
     .heading{
@@ -248,4 +253,5 @@ header p {
     .flavours button{
         font-size: 8px;
     }
+
 }
